@@ -39,6 +39,7 @@
     height: 100%;
     width: 350px;
     padding: 20px;
+    padding-left: 0;
   }
 }
 </style>

@@ -14,12 +14,16 @@ const routes = [
         component: () => import('@/pages/main/Home/index.vue'),
       },
       {
-        path: 'Message',
+        path: 'message',
         component: () => import('@/pages/main/Message/index.vue'),
       },
       {
-        path: 'Explore',
+        path: 'explore',
         component: () => import('@/pages/main/Explore/index.vue'),
+      },
+      {
+        path: 'user',
+        component: () => import('@/pages/main/User/index.vue'),
       },
     ],
   },

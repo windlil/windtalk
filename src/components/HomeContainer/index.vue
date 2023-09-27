@@ -5,7 +5,7 @@ import Box from '../Box/index.vue'
 
 <template>
   <div class="home-container scrollbar">
-    <Box  v-for="_ in 10" class="box">
+    <Box v-for="_ in 10" class="box">
       <template #header>
         <div class="header">
           <div class="avatar">

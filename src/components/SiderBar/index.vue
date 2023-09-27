@@ -25,9 +25,14 @@ const siderBar = reactive<Item[]>([
     icon: 'uiw:message',
   },
   {
-    name: '话题',
+    name: '搜索',
     link: '/main/explore',
     icon: 'iconamoon:search-bold',
+  },
+  {
+    name: '个人',
+    link: '/main/user',
+    icon: 'lucide:user-2',
   },
 ])
 

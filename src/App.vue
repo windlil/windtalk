@@ -27,6 +27,6 @@ import Right from '@/components/Right/index.vue'
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3f3f3f;
+  background-color: #292929;
 }
 </style>
